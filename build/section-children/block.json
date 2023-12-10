@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "doc-blocks/section-children",
+  "version": "0.1.0",
+  "title": "Section Children",
+  "category": "theme",
+  "icon": "layout",
+  "description": "Shows children of a partent page.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "section-children",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

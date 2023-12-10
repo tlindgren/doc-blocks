@@ -1,0 +1,6 @@
+/* Load for the whole site */
+
+/* Override Bootstrap  */
+html {
+    font-size: 16px !important;
+}

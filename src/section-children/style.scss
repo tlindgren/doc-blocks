@@ -1,0 +1,85 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+// .wp-block-create-block-hello-dolly-block {
+// 	background-color: #21759b;
+// 	color: #fff;
+// 	padding: 2px;
+// }
+
+/* Section Contents Block */
+
+.wp-block-doc-blocks-section-children .section-contents > ul {
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+	list-style: none;
+	grid-gap: 1rem;
+    margin-block-end: 0;
+    padding: 0;
+	flex-wrap: wrap;
+}
+
+
+.wp-block-doc-blocks-section-children  .section-contents li {
+	border: 1px solid #ccc; 
+	border-radius: .25rem;
+	padding: 1rem;
+	flex-grow: 1;
+	box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+	font-size: var(--wp--preset--font-size--base);
+	background-color: #fff;
+	color: #fff;
+	line-height:1.4;
+	position:relative;
+	text-align: left;
+}
+
+.wp-block-doc-blocks-section-children  .section-contents li:hover {
+	transform: translateY(-2px);
+	transition-property: all;
+	box-shadow: rgb(0 0 0 / 2%) 0px 12px 13px;
+	transition-duration: 0.15s;
+  }
+
+  .wp-block-doc-blocks-section-children  .section-contents a {
+	text-decoration:none;
+	font-weight: bold;
+	// color: var(--wp--preset--color--secondary);
+}
+
+.wp-block-doc-blocks-section-children  .section-contents li a:after {
+	content:'';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+  }
+  
+  .wp-block-doc-blocks-section-children .section-contents .entry-subtitle {
+	padding-top: 0;
+	font-size: var(--wp--preset--font-size--small);
+	line-height:1.3;
+		color: #666;
+}
+
+.wp-block-doc-blocks-section-children  .section-contents .child-count {
+	border-radius: 2rem;
+	 display: flex;
+	 position: absolute;
+	 top: -0.5rem;
+	 right: -0.5rem;
+	 background: var(--wp--preset--color--secondary);
+	 width: 1.75rem;
+	 height: 1.75rem;
+	 text-align: center;
+	 font-size: var(--wp--preset--font-size--small);
+	 align-items: center;
+	 justify-content: center;
+ }

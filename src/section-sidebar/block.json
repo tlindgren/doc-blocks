@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "doc-blocks/section-sidebar",
+	"version": "0.1.0",
+	"title": "Section Sidebar",
+	"category": "theme",
+	"icon": "layout",
+	"description": "Shows Pages in Current Section.",
+	"supports": {
+	  "html": false
+	},
+	"textdomain": "section-sidebar-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+  }

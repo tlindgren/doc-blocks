@@ -1,0 +1,74 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+// .wp-block-create-block-hello-dolly-block {
+// 	background-color: #21759b;
+// 	color: #fff;
+// 	padding: 2px;
+// }
+
+/* Next-Previous */
+.next-previous-nav {
+	display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-block-start: 1rem;
+	padding-block-end: 1rem;
+	gap:1rem;
+ }
+
+ .next-previous-nav > div {
+	padding-block-end: 1rem;
+	border: 1px solid #ccc;
+    border-radius: 0.2rem;
+    padding: .5rem;
+    font-size: var(--wp--preset--font-size--x-small);
+	flex-grow: 1;
+	box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+	min-width:calc(50% - 2rem);
+	position: relative;
+}
+
+.next-previous-nav > div:hover {
+	transform: translateY(-2px);
+	transition-property: all;
+	box-shadow: rgb(0 0 0 / 2%) 0px 12px 13px;
+	transition-duration: 0.15s;
+  }
+
+.next-previous-nav a {
+	text-decoration: none;
+}
+
+.next-previous-nav a::after {
+    content:'';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.next-previous-nav .previous {
+	text-align: left;
+}
+
+.next-previous-nav .next {
+	text-align: right;
+}
+
+
+.next-previous-nav .arrow {
+	height:1.5rem;
+}
+
+.next-previous-nav .parent .arrow {
+	transform: rotate(90deg);
+}

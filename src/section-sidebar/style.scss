@@ -1,0 +1,39 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ */
+
+ul.wp-block-doc-blocks-section-sidebar  {
+	padding-left:0;
+}
+
+.wp-block-doc-blocks-section-sidebar li {
+	font-size: var(--wp--preset--font-size--x-small);
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-left: 2px solid #ddd;
+    text-align: left;
+}
+
+.wp-block-doc-blocks-section-sidebar li a {
+    text-decoration: none;
+    width: 16rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+
+.wp-block-doc-blocks-section-sidebar li.current_page_item a {
+    border-left: 2px solid var(--wp--preset--color--primary);
+    font-weight: bold;
+    color: #000;
+    padding-left: 0.5rem;
+    margin-left: -0.125rem;
+}

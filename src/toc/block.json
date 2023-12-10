@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "doc-blocks/toc",
+	"version": "0.1.0",
+	"title": "Table of Contents",
+	"category": "theme",
+	"icon": "layout",
+	"description": "Table of contents block for block themes",
+	"supports": {
+	  "html": false
+	},
+	"textdomain": "toc",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+  }
