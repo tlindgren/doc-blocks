@@ -1,5 +1,5 @@
 {
-    "name": "doc-blocks/doc-blocks",
+    "name": "docblocks/doc-blocks",
     "description": "",
     "require": {
       "php": "^7.3||^8.0"
